@@ -1,0 +1,16 @@
+{
+  "name": "icanhazdadjoke",
+  "version": "1.0.0",
+  "description": "Random Dad jokes for your Github README",
+  "main": "index.js",
+  "repository": "git@github.com:und3fined-v01d/icanhazdadjoke.git",
+  "author": "und3fined-v01d <soham.parekh1998@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
