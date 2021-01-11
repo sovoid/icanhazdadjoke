@@ -1,4 +1,5 @@
 const axios = require('axios');
+const escape = require('escape-html');
 const template = require('./template');
 
 const getRandomJoke = async () => {
@@ -10,7 +11,7 @@ const getRandomJoke = async () => {
     },
   });
 
-  return joke;
+  return escape(joke);
 };
 
 const cacheSeconds = 10;
